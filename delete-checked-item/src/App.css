@@ -1,0 +1,9 @@
+body{
+  padding: 20px;
+  margin: 20px;
+  background-color: rgb(67, 67, 67);
+  color: white;
+}
+ul{
+  list-style-type: none;
+}
