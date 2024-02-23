@@ -1,0 +1,27 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.starContainer{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid red;
+    box-shadow: 1px 1px 1px 1px rgba(1, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.stars{
+    font-size: 40px;
+}
+.star{
+    padding: 5px;
+    color: grey;
+    cursor: pointer;
+}
+.star-filled {
+    color: #08a350;
+}

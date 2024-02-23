@@ -5,6 +5,7 @@ import Counter from './Components/Counter'
 import BasciCal from './Components/BasciCal'
 import Stopwatch from './Components/Stopwatch'
 import ColorPick from './Components/ColorPick'
+import StarRating from './Components/StarRating'
 
 function App() {
   
@@ -13,7 +14,8 @@ function App() {
     // <Counter />
     // <BasciCal />
     // <Stopwatch />
-    <ColorPick />
+    // <ColorPick />
+    <StarRating />
   )
 }
 
