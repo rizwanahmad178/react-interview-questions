@@ -6,6 +6,7 @@ import BasciCal from './Components/BasciCal'
 import Stopwatch from './Components/Stopwatch'
 import ColorPick from './Components/ColorPick'
 import StarRating from './Components/StarRating'
+import RandomQuote from './Components/RandomQuote'
 
 function App() {
   
@@ -15,7 +16,8 @@ function App() {
     // <BasciCal />
     // <Stopwatch />
     // <ColorPick />
-    <StarRating />
+    // <StarRating />
+    <RandomQuote />
   )
 }
 

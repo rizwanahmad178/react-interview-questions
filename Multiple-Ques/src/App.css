@@ -25,3 +25,17 @@ body{
 .star-filled {
     color: #08a350;
 }
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+blockquote{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0px;
+}
+h4{
+    text-decoration: underline;
+}
