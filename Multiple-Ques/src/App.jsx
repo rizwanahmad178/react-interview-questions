@@ -7,6 +7,7 @@ import Stopwatch from './Components/Stopwatch'
 import ColorPick from './Components/ColorPick'
 import StarRating from './Components/StarRating'
 import RandomQuote from './Components/RandomQuote'
+import InfiniteScroll from './Components/InfiniteScroll/InfiniteScroll'
 
 function App() {
   
@@ -17,7 +18,8 @@ function App() {
     // <Stopwatch />
     // <ColorPick />
     // <StarRating />
-    <RandomQuote />
+    // <RandomQuote />
+    <InfiniteScroll />
   )
 }
 
