@@ -25,6 +25,7 @@ function InfiniteScrollApp() {
       next={fetchMoreData}
       hasMore={hasMore}
       loader={<p style={{textAlign:"center"}}>Loading...</p>}
+      endMessage={<h3 style={{textAlign:"center"}}>Congratulations!! You Visited the Page.</h3>}
     >
       <h1>This is Infinte Scroll App</h1>
       {dataSource.map((item, index) => {
