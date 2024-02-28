@@ -1,0 +1,22 @@
+/* ImageGalleryApp.css */
+.ImageGalleryApp {
+    text-align: center;
+  }
+  
+  /* ImageGrid.css */
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .image {
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+  }
+  

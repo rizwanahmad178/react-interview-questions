@@ -8,6 +8,8 @@ import ColorPick from './Components/ColorPick'
 import StarRating from './Components/StarRating'
 import RandomQuote from './Components/RandomQuote'
 import InfiniteScroll from './Components/InfiniteScroll/InfiniteScroll'
+import ImageGallery from './Components/ImageGallery/ImageGallery'
+import Carousel from './Components/Carousels/Carousel'
 
 function App() {
   
@@ -19,7 +21,9 @@ function App() {
     // <ColorPick />
     // <StarRating />
     // <RandomQuote />
-    <InfiniteScroll />
+    // <InfiniteScroll />
+    // <ImageGallery />
+    <Carousel />
   )
 }
 
