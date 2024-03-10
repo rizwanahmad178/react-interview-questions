@@ -1,5 +1,5 @@
 const Result = ({userAnswers, questions, resetQuiz = () => {}}) => {
-    const correctAnswers = userAnswers.filter((answer) => answer).length;
+    const correctAnswers = userAnswers.filter((answer) => answer==true).length;
   
     return (
       <div className="results">
