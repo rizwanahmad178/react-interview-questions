@@ -10,6 +10,7 @@ import RandomQuote from './Components/RandomQuote'
 import InfiniteScroll from './Components/InfiniteScroll/InfiniteScroll'
 import ImageGallery from './Components/ImageGallery/ImageGallery'
 import Carousel from './Components/Carousels/Carousel'
+import QuizzApp from './Components/QuizzApp/QuizzApp'
 
 function App() {
   
@@ -23,7 +24,8 @@ function App() {
     // <RandomQuote />
     // <InfiniteScroll />
     // <ImageGallery />
-    <Carousel />
+    // <Carousel />
+    <QuizzApp />
   )
 }
 
