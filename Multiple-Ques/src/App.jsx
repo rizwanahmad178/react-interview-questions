@@ -11,6 +11,7 @@ import InfiniteScroll from './Components/InfiniteScroll/InfiniteScroll'
 import ImageGallery from './Components/ImageGallery/ImageGallery'
 import Carousel from './Components/Carousels/Carousel'
 import QuizzApp from './Components/QuizzApp/QuizzApp'
+import ProgressApp from './Components/ProgressBar/ProgressApp'
 
 function App() {
   
@@ -25,7 +26,8 @@ function App() {
     // <InfiniteScroll />
     // <ImageGallery />
     // <Carousel />
-    <QuizzApp />
+    // <QuizzApp />
+    <ProgressApp />
   )
 }
 
