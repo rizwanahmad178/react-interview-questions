@@ -5,46 +5,40 @@
     justify-content: center;
     padding: 15px;
 }
-
-  
-  .steps-container {
+.steps-container {
     position: relative;
     width: 100%;
     margin: 15px;
     margin-bottom: 40px;
-  }
-  
-  .progress-line {
+}
+.progress-line {
     position: absolute;
-    height: 2px;
-    background: gray;
+    height: 4px;
+    background: rgb(0, 225, 124);
     width: 0;
     top: 50%;
     left: 0;
     transition: all 0.55s ease;
-  }
-  
-  .steps-wrapper {
+}
+.steps-wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  
-  .steps {
+}
+.steps {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: gray;
+    background-color:rgb(0, 158, 220);
     display: flex;
     align-items: center;
     justify-content: center;
     transition: all 0.2s ease;
     cursor: pointer;
     z-index: 1; 
-  }
-  
-  .steps.active {
-    background-color: rgb(26, 135, 179);
-  }
+}
+.steps.active {
+    background-color: rgb(184, 0, 225) ;
+}
   
   

@@ -4,7 +4,8 @@ import "./Stepper.css";
 
 const StepperApp = () => {
   const [currentStep, setCurrentStep] = useState(0);
-  const totalSteps = 5;
+  const list = [1,2,3,4,5];
+  const totalSteps = list.length;
 
   const handlePrev = () => {
     if (currentStep > 0) {
@@ -17,21 +18,7 @@ const StepperApp = () => {
       setCurrentStep(currentStep + 1);
     }
   };
-
-  const Example1 = () => <div>Step 1 content</div>;
-  const Example2 = () => <div>Step 2 content</div>;
-  const Example3 = () => <div>Step 3 content</div>;
-  const Example4 = () => <div>Step 4 content</div>;
-  const Example5 = () => <div>Step 5 content</div>;
-
-  const list = [
-    <Example1 />,
-    <Example2 />,
-    <Example3 />,
-    <Example4 />,
-    <Example5 />
-  ];
-
+  
   return (
     <div className="stepperApp">
       <h1 className="mb-4 text-4xl font-extrabold leading-none text-gray-900">Stepper</h1>
