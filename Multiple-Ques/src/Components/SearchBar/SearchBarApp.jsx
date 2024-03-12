@@ -4,11 +4,15 @@ function SearchBarApp() {
   const [items, setItems] = useState([])
   const [query, setQuery] = useState("")
 
-  const filteredItems = useMemo(() => {
-    return items.filter(item => {
-      return item.toLowerCase().includes(query.toLowerCase())
-    })
-  }, [items, query])
+  const filteredItems = items.filter(item => {
+    return item.toLowerCase().includes(query.toLowerCase())
+  });
+  
+  // const filteredItems = useMemo(() => {
+  //   return items.filter(item => {
+  //     return item.toLowerCase().includes(query.toLowerCase())
+  //   })
+  // }, [items, query])
   useEffect(() => { 
     const fetchData = async () => { 
         const response = await fetch("https://jsonplaceholder.typicode.com/users");  
