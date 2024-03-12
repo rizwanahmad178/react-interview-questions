@@ -1,5 +1,5 @@
 import "./App.css";
-import CheckoutStepper from "../components/stepper";
+import CheckoutStepper from "./components/stepper";
 
 const CHECKOUT_STEPS = [
   {

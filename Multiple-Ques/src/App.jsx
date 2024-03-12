@@ -13,6 +13,7 @@ import Carousel from './Components/Carousels/Carousel'
 import QuizzApp from './Components/QuizzApp/QuizzApp'
 import ProgressApp from './Components/ProgressBar/ProgressApp'
 import SearchBarApp from './Components/SearchBar/SearchBarApp'
+import StepperApp from './Components/Stepper/StepperApp'
 
 function App() {
   
@@ -29,7 +30,8 @@ function App() {
     // <Carousel />
     // <QuizzApp />
     // <ProgressApp />
-    <SearchBarApp />
+    // <SearchBarApp />
+    <StepperApp />
   )
 }
 
