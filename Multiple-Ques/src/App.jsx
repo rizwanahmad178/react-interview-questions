@@ -12,6 +12,7 @@ import ImageGallery from './Components/ImageGallery/ImageGallery'
 import Carousel from './Components/Carousels/Carousel'
 import QuizzApp from './Components/QuizzApp/QuizzApp'
 import ProgressApp from './Components/ProgressBar/ProgressApp'
+import SearchBarApp from './Components/SearchBar/SearchBarApp'
 
 function App() {
   
@@ -27,7 +28,8 @@ function App() {
     // <ImageGallery />
     // <Carousel />
     // <QuizzApp />
-    <ProgressApp />
+    // <ProgressApp />
+    <SearchBarApp />
   )
 }
 
