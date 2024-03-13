@@ -14,6 +14,7 @@ import QuizzApp from './Components/QuizzApp/QuizzApp'
 import ProgressApp from './Components/ProgressBar/ProgressApp'
 import SearchBarApp from './Components/SearchBar/SearchBarApp'
 import StepperApp from './Components/Stepper/StepperApp'
+import PaginationApp from './Components/Pagination/PaginationApp'
 
 function App() {
   
@@ -31,7 +32,8 @@ function App() {
     // <QuizzApp />
     // <ProgressApp />
     // <SearchBarApp />
-    <StepperApp />
+    // <StepperApp />
+    <PaginationApp />
   )
 }
 
