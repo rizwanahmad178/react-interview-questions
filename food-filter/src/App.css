@@ -1,0 +1,13 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+.card-title, .card-text{
+    text-align: center;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
